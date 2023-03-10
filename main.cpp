@@ -4,11 +4,11 @@
 using namespace std;
 
 int main() {
-    int add = 2; // What is the difference between the first row and second row
-    int cn = 1; // Staring triangle number
+    double add = 2; // What is the difference between the first row and second row
+    double cn = 1; // Staring triangle number
     int height = 0; // Input
     int ii = 0; // Run through counter
-    int tri; // Triangle number value holder
+    double tri; // Triangle number value holder
     int arrcount = 0; // To keep track of what position we are in the array
 
     int trisqr[10] = {0,0,0,0,0,0,0,0,0,0}; // The array to store the triangle numbers that equal square numbers
